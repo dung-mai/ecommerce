@@ -7,6 +7,12 @@ tmp
 
 # dependencies
 node_modules
+*/node_modules
+
+*/.next
+
+# env files
+.env*
 
 # IDEs and editors
 /.idea
@@ -42,3 +48,7 @@ Thumbs.db
 .nx/workspace-data
 
 vite.config.*.timestamp*
+
+# Next.js
+.next
+out
